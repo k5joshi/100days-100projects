@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100vh;
+    background-color: rgb(48, 41, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 5%;
+    color: rgba(228, 105, 60, 0.82);
+}
+
+.card{
+    background-color: antiquewhite;
+    height: 50%;
+    width: 30%;
+    border-radius: 4px;
+    padding: 10px 25px;
+
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card input{
+    height: 10%;
+    width: 85%;
+    font-size: 1.7vw;
+    padding: 7px 12px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    color: blue;
+
+}
+
+.card input::placeholder{
+    font-size: 1.3vw;
+    color: grey;
+}
+.card i{
+    font-size: 2rem;
+    margin-left: 8px;
+    font-weight: 700;
+}
